@@ -1,8 +1,4 @@
 resource "aws_s3_bucket" "test_bucket" {
-  # bucket is public
-  # bucket is not encrypted
-  # bucket does not have access logs
-  # bucket does not have versioning
   bucket        = "my-test-bucket"
   force_destroy = true
 }
